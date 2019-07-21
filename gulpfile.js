@@ -10,7 +10,7 @@ const concat = require('gulp-concat');
 
 
 function styl(){
-    return gulp.src('./src/stylus/*.styl')
+    return gulp.src('./src/stylus/main.styl')
             .pipe(stylus())
             .pipe(autoprefixer({
                 browsers: ['<0.001%'],

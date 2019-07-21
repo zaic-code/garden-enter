@@ -1,0 +1,91 @@
+    .main-header_top-fix-menu
+        display flex
+        flex-wrap wrap
+        justify-content center
+        align-items center
+        min-height 51px
+        background-color #ececec
+        .site-navigation
+            margin 0
+            padding 0
+            margin-right auto
+            padding-bottom 5px            
+            li
+                display inline-block
+                margin-right 12px
+                a
+                    color #323232
+                    font-family 'Montserrat', sans-serif
+                    font-size 13px
+                    font-weight 500
+                    position relative   
+                    text-decoration none                 
+                    &:hover:after
+                        width 100%                    
+                    &:after
+                        content ""
+                        position absolute 
+                        bottom -3px
+                        left 0                      
+                        height 1px
+                        width 0%
+                        background-color #323232;
+                        transition width .3s ease-in-out
+
+        .call-me
+            margin 0
+            padding 0
+            padding-bottom 5px
+            margin-right 25px
+            li
+                display inline-block
+                .cal-me_phone
+                    color #323232
+                    font-family 'Montserrat', sans-serif
+                    font-size 14px
+                    font-weight 600
+                    letter-spacing 0.35px
+                    position relative
+                    text-decoration none 
+                    &:before
+                        content ''
+                        background url(../img/call-me_phone.png) no-repeat
+                        position absolute
+                        width 15px
+                        height 19px
+                        left -20px
+                        top 0px
+                .call-me_btn
+                    margin-left 62px
+                    border-radius 4px
+                    border 1px solid #323232
+                    padding 6px 16px
+                    color #323232
+                    font-family 'Montserrat', sans-serif
+                    font-size 12px
+                    font-weight 600
+                    line-height 12px
+                    letter-spacing 0.3px
+                    text-decoration none 
+        .user-navigation
+            margin 0
+            padding 0
+            margin-left auto
+            padding-bottom 5px
+            li
+                display inline-block 
+                a  
+                    color #323232
+                    font-family 'Montserrat', sans-serif
+                    font-size 12px
+                    font-weight 600
+                    position relative
+                    text-decoration none 
+                    &:before
+                        content ''
+                        background url(../img/admin_icon_user_nav.png) no-repeat
+                        position absolute
+                        width 16px
+                        height 17px
+                        left -25px
+                        top -2px

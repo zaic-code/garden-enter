@@ -3,37 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">    
     <title>Садовый центр - интернет магазин</title>
 </head>
 <body>
     <header class="main-header">
-        <div class="main-header_top-fix-menu">
-                    <ul class="site-navigation">
-                        <li><a href="bayer">Оплата и возврат</a></li>
-                        <li><a href="delivery">Доставка</a></li>
-                        <li><a href="article">Статьи</a></li>
-                        <li><a href="design">Ландшафтным дизайнерам</a></li>                                                
-                    </ul>
-                    <!-- /.site-navigation -->
-                    <ul class="call-me">
-                            <li><a href="tel:+74957552877"> 8 (495) 755-28-77 </a></li>
-                            <li><a href="callback">Обратный звонок</a></li>
-                    </ul>
-                    <!-- /.call-me --> 
-                    <ul class="user-navigation">
-                            <li><a href="users">Личный кабинет</a></li>
-                    </ul>
-                    <!-- /.user-navigation -->
+        <div class="bg-fluid">
+                <div class="container main-header_top-fix-menu">
+                        <ul class="site-navigation">
+                            <li><a href="bayer">Оплата и возврат</a></li>
+                            <li><a href="delivery">Доставка</a></li>
+                            <li><a href="article">Статьи</a></li>
+                            <li><a class="active" href="design">Ландшафтным дизайнерам</a></li>                                                
+                        </ul>
+                        <!-- /.site-navigation -->
+                        <ul class="call-me">
+                                <li><a class="cal-me_phone" href="tel:+74957552877"> 8 (495) 755-28-77 </a></li>
+                                <li><a class="call-me_btn" href="callback">Обратный звонок</a></li>
+                        </ul>
+                        <!-- /.call-me --> 
+                        <ul class="user-navigation">
+                                <li><a href="users">Личный кабинет</a></li>
+                        </ul>
+                        <!-- /.user-navigation -->
+                </div>
         </div>
+        <!-- /.bg-fluid -->
+        
         <!-- /.main-header_fix-menu -->
         <div class="main-header_slider">
-            <h2>Живая ель на Новый год</h2>
-            <p>Стройная королева новогоднего праздника украсит
-            ваш сад и подарит радость всей семье!
-            Подбираем подходящие сорта</p>
-            <a href="tree_more">Подробнее</a>
+            <div class="slids active">
+                    <img src="" alt="live_tree">
+                    <h2>Живая ель на Новый год</h2>
+                    <p>Стройная королева новогоднего праздника украсит
+                    ваш сад и подарит радость всей семье!
+                    Подбираем подходящие сорта</p>
+                    <a href="tree_more">Подробнее</a>
+            </div>
+            <div class="slids">
+                    <img src="" alt="live_tree">
+                    <h2>Живая ель на Новый год</h2>
+                    <p>Стройная королева новогоднего праздника украсит
+                    ваш сад и подарит радость всей семье!
+                    Подбираем подходящие сорта</p>
+                    <a href="tree_more">Подробнее</a>
+            </div>            
             <button class="prev_slids"></button>
             <button class="next_slids"></button>
             <button class="select_slids"></button>
