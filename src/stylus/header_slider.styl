@@ -1,0 +1,99 @@
+    .main-header_slider
+        position relative
+        top 51px
+        .slides
+            position relative
+            display none
+            img
+                max-width 100%
+            article
+                position absolute
+                top 105px
+                right 83px
+                max-width 390px
+                text-align right
+                h2 
+                    color #323232
+                    font-family font
+                    font-size 24px
+                    font-weight 500
+                    text-transform uppercase
+                p 
+                    color #323232
+                    font-family font
+                    font-size 14px
+                    font-weight 500
+                    line-height 20.35px
+                a
+                    text-decoration none
+                    display inline-block
+                    border-radius 4px
+                    padding 7px 37px
+                    margin-top 13px
+                    background-color #1d521a
+                    color #ffffff
+                    font-family font
+                    font-size 12px
+                    font-weight 500
+                    letter-spacing 0.3px
+                    &:hover
+                        background-image linear-gradient(-2deg, #345927 0%, #345927 42%, #8bc53c 100%)
+        .prev_slids
+            width: 33px;
+            height: 33px;
+            position absolute
+            width: 35px;
+            height: 35px;
+            left: 29px;
+            top: 171px;
+            background-color transparent
+            border none
+            &:before
+                content ''
+                background url(../img/slides/left.png) no-repeat
+                position absolute
+                width 11px
+                height 19px
+                left 10px
+                top 8px
+            &:hover                
+                box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.14);
+                background-color: #ffffff;
+                opacity: 0.8;
+        .next_slids
+            width: 33px;
+            height: 33px;
+            position absolute
+            width: 35px;
+            height: 35px;
+            right: 29px;
+            top: 171px;
+            background-color transparent
+            border none
+            &:after
+                content ''
+                background url(../img/slides/right.png) no-repeat
+                position absolute
+                width 11px
+                height 19px
+                right 10px
+                top 8px
+            &:hover                
+                box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.14);
+                background-color: #ffffff;
+                opacity: 0.8;
+        .select_bottom_btn
+            width 560px
+            overflow: auto;
+            margin: auto;
+            position: absolute;
+            top: auto; left: 139px; bottom: 21px; right: 0;
+            button
+                margin-right 15px 
+                width: 69px;
+                height: 4px;
+                box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.31);
+                background-color: #ffffff;
+                border none
+                &:hover
+                    background-color: #1d521a;

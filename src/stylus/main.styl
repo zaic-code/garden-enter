@@ -1,16 +1,43 @@
+font = 'Montserrat', sans-serif
+color_text_header = #323232
+
 *, *::before, *::after
     box-sizing border-box
 html
     box-sizing border-box
 body
     min-width 324px     
-    box-sizing border-box  
+    box-sizing border-box 
+.visualy-hidden 
+    position: absolute !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    clip: rect(0 0 0 0) !important;
+    clip-path: inset(100%) !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    text-indent: -9999px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important; 
 .bg-fluid
     width 100%
     height 51px
     background-color #ececec
+    position fixed
+    top 0
+    left 0
+    z-index 999
 .active
     color #1e531b !important
+.select_slide
+    display block !important
 
 .container
     max-width 1170px
@@ -24,6 +51,7 @@ body
     align-items center
     @import "header_site_navigation"
     @import "header_slider"
+    @import "header-main_nav.styl"
     
                 
         
